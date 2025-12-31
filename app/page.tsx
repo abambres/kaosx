@@ -73,28 +73,28 @@ export default function App() {
   return (
     <main className={`relative h-screen w-full flex flex-col items-center justify-between py-12 md:py-16 px-4 transition-opacity duration-1000 ${isReady ? 'opacity-100' : 'opacity-0'} bg-black font-mono tracking-[0.2em] z-10`}>
       
-      {/* HEADER: PLAY | LEARN | FORGE */}
+      {/* HEADER */}
       <header className="z-10 text-center opacity-60">
         <p className="text-[8px] md:text-xs tracking-[0.4em] text-white">
           INFINITE SCREEN ARCHITECTURE
         </p>
-        <span className="text-[10px] md:text-xs font-bold tracking-[0.6em]">
-          PLAY &bull; LEARN &bull; FORGE
-        </span>
+        <p className="text-[10px] md:text-xs font-bold tracking-[0.6em]">
+          PLAY <span className="text-yellow">&bull;</span> LEARN <span className="text-yellow">&bull;</span> FORGE
+        </p>
       </header>
       
-      {/* MAIN IDENTITY */}
+      {/* MAIN */}
       <section className="flex flex-col items-center justify-center flex-1 w-full max-w-5xl z-10 text-center space-y-12 md:space-y-16">
         <div className="w-full flex justify-center">
           <Countdown />
         </div>
       </section>
 
-      {/* FOOTER: THE ABAMBRES IMAGINARIUM */}
+      {/* FOOTER */}
       <footer className="z-10 w-full flex flex-col items-center space-y-6 md:space-y-8 px-4 text-center opacity-60">
         <div className="flex flex-col space-y-4 md:space-y-6">
           
-          <p className="text-[8px] md:text-xs tracking-[0.8em] text-white">
+          <p className="text-[8px] md:text-xs tracking-[0.4em] text-white">
             KAOS*
           </p>
           
