@@ -75,11 +75,7 @@ export default function App() {
       
       {/* HEADER */}
       <header className="z-10 text-center opacity-60">
-        <p className="text-[6px] md:text-xs tracking-[0.4em] text-white">
-          INFINITE SCREEN ARCHITECTURE
-        </p>
-        <br/>
-        <p className="text-[10px] md:text-xs font-bold tracking-[0.6em]">
+        <p className="text-[12px] md:text-xs font-bold tracking-[0.6em]">
           PLAY <span className="text-yellow-400">&bull;</span> LEARN <span className="text-yellow-400">&bull;</span> FORGE
         </p>
       </header>
