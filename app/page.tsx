@@ -75,8 +75,11 @@ export default function App() {
       
       {/* HEADER: PLAY | LEARN | FORGE */}
       <header className="z-10 text-center opacity-60">
+        <p className="text-[8px] md:text-xs tracking-[0.4em] text-white">
+          INFINITE SCREEN ARCHITECTURE
+        </p>
         <span className="text-[10px] md:text-xs font-bold tracking-[0.6em]">
-          [ KAOS* ] PLAY &bull; LEARN &bull; FORGE
+          PLAY &bull; LEARN &bull; FORGE
         </span>
       </header>
       
@@ -90,8 +93,9 @@ export default function App() {
       {/* FOOTER: THE ABAMBRES IMAGINARIUM */}
       <footer className="z-10 w-full flex flex-col items-center space-y-6 md:space-y-8 px-4 text-center opacity-60">
         <div className="flex flex-col space-y-4 md:space-y-6">
-          <p className="text-[8px] md:text-xs tracking-[0.4em] text-white">
-            INFINITE SCREEN ARCHITECTURE
+          
+          <p className="text-[8px] md:text-xs tracking-[0.8em] text-white">
+            KAOS*
           </p>
           
           <p className="text-[8px] md:text-xs tracking-[0.3em]">
@@ -108,6 +112,7 @@ export default function App() {
           <p className="text-[8px] md:text-xs tracking-[0.8em]">
             2026
           </p>
+          
         </div>
       </footer>
     </main>
