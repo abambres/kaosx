@@ -76,16 +76,12 @@ export default function App() {
       {/* HEADER: PLAY | LEARN | FORGE */}
       <header className="z-10 text-center opacity-60">
         <span className="text-[10px] md:text-xs font-bold tracking-[0.6em]">
-          PLAY | LEARN | FORGE
+          [ KAOS* ] PLAY &bull; LEARN &bull; FORGE
         </span>
       </header>
       
       {/* MAIN IDENTITY */}
       <section className="flex flex-col items-center justify-center flex-1 w-full max-w-5xl z-10 text-center space-y-12 md:space-y-16">
-        <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold tracking-tighter text-white leading-none">
-          [<span className="text-yellow-400">ISÄ</span>] IS COMING...
-        </h1>
-        
         <div className="w-full flex justify-center">
           <Countdown />
         </div>
