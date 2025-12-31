@@ -92,14 +92,14 @@ export default function App() {
       </section>
 
       {/* FOOTER */}
-      <footer className="z-10 w-full flex flex-col items-center space-y-6 md:space-y-8 px-4 text-center opacity-60">
+      <footer className="z-10 w-full flex flex-col items-center space-y-6 md:space-y-8 px-4 text-center text-[10px] opacity-60">
         <div className="flex flex-col space-y-4 md:space-y-6">
           
-          <p className="text-[8px] md:text-xs tracking-[0.4em] text-white">
+          <p className="md:text-xs tracking-[0.4em] text-white">
             KAOS*
           </p>
           
-          <p className="text-[8px] md:text-xs tracking-[0.3em]">
+          <p className="md:text-xs tracking-[0.4em]">
             <a 
               href="http://abambres.com" 
               target="_blank" 
@@ -110,7 +110,7 @@ export default function App() {
             </a>
           </p>
           
-          <p className="text-[8px] md:text-xs tracking-[0.8em]">
+          <p className="md:text-xs tracking-[0.8em]">
             2026
           </p>
           
