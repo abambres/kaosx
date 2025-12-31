@@ -83,7 +83,7 @@ export default function App() {
       {/* MAIN IDENTITY */}
       <section className="flex flex-col items-center justify-center flex-1 w-full max-w-5xl z-10 text-center space-y-12 md:space-y-16">
         <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold tracking-tighter text-white leading-none">
-          [<span className="text-yellow-400">Isä</span>] is coming
+          [<span className="text-yellow-400">ISÄ</span>] IS COMING...
         </h1>
         
         <div className="w-full flex justify-center">
@@ -94,11 +94,11 @@ export default function App() {
       {/* FOOTER: THE ABAMBRES IMAGINARIUM */}
       <footer className="z-10 w-full flex flex-col items-center space-y-6 md:space-y-8 px-4 text-center opacity-60">
         <div className="flex flex-col space-y-4 md:space-y-6">
-          <p className="text-[10px] md:text-xs tracking-[0.4em] text-white">
+          <p className="text-[8px] md:text-xs tracking-[0.4em] text-white">
             INFINITE SCREEN ARCHITECTURE
           </p>
           
-          <p className="text-[10px] md:text-xs tracking-[0.3em]">
+          <p className="text-[8px] md:text-xs tracking-[0.3em]">
             <a 
               href="http://abambres.com" 
               target="_blank" 
@@ -109,7 +109,7 @@ export default function App() {
             </a>
           </p>
           
-          <p className="text-[10px] md:text-xs tracking-[0.8em]">
+          <p className="text-[8px] md:text-xs tracking-[0.8em]">
             2026
           </p>
         </div>
