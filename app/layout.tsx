@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "KAOS* 2.x ─ UnLeashed",
-  description: "The Good Kind. 🔥",
+  title: "KAOS* 2.x ─ UnLeashed 🔥",
+  description: "The Good Kind.",
 };
 
 export default function RootLayout({
