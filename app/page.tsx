@@ -74,7 +74,7 @@ export default function App() {
     <main className={`relative h-screen w-full flex flex-col items-center justify-between py-12 md:py-16 px-4 transition-opacity duration-1000 ${isReady ? 'opacity-100' : 'opacity-0'} bg-black font-mono tracking-[0.2em] z-10`}>
       
       {/* HEADER */}
-      <header className="z-10 text-center opacity-60">
+      <header className="z-10 text-center">
         <p className="text-[12px] md:text-xs font-bold tracking-[0.6em]">
           PLAY <span className="text-yellow-400">&bull;</span> LEARN <span className="text-yellow-400">&bull;</span> FORGE
         </p>
@@ -88,7 +88,7 @@ export default function App() {
       </section>
 
       {/* FOOTER */}
-      <footer className="z-10 w-full flex flex-col items-center space-y-6 md:space-y-8 px-4 text-center text-[10px] opacity-60">
+      <footer className="z-10 w-full flex flex-col items-center space-y-6 md:space-y-8 px-4 text-center text-[10px]">
         <div className="flex flex-col space-y-4 md:space-y-6">
           
           <p className="md:text-xs tracking-[0.4em] text-white">
