@@ -47,7 +47,7 @@ const Countdown = () => {
 };
 
 const Separator = () => (
-  <div className="hidden md:block text-xl md:text-3xl opacity-20 font-light mt-1 select-none">:</div>
+  <div className="hidden md:block text-xl md:text-3xl font-light mt-1 select-none">:</div>
 );
 
 const TimeUnit: React.FC<{ value: string; label: string }> = ({ value, label }) => (
