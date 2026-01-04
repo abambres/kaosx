@@ -55,7 +55,7 @@ const TimeUnit: React.FC<{ value: string; label: string }> = ({ value, label }) 
     <span className="text-3xl md:text-5xl lg:text-6xl font-extralight tracking-tight tabular-nums">
       {value}
     </span>
-    <span className="text-[7px] md:text-[9px] tracking-[0.4em] opacity-40 font-bold mt-3">
+    <span className="text-[7px] md:text-[9px] tracking-[0.4em] opacity-75 font-bold mt-3">
       {label}
     </span>
   </div>
