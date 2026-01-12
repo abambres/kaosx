@@ -6,7 +6,7 @@ import React, { useState, useEffect } from 'react';
 const Countdown = () => {
   const calculateTimeLeft = () => {
     // Target: Jan 5, 2026 midnight
-    const target = new Date('2026-01-12T00:00:00');
+    const target = new Date('2026-02-01T00:00:00');
     const now = new Date();
     const difference = target.getTime() - now.getTime();
 
